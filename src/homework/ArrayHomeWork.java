@@ -2,11 +2,18 @@ package homework;
 
 public class ArrayHomeWork {
 
-    public static int[] getEvenNumbers() {
-        return new int[1];
+    /*
+    create int array which will contains even numbers and return that array
+
+     */
+    public static int[] getEvenNumbers(int arrayLength) {
+        return new int[arrayLength];
     }
 
-    public static int[] getOddNumbers() {
-        return new int[1];
+    /*
+    create int array which contains odd numbers and return that array
+     */
+    public static int[] getOddNumbers(int arrayLength) {
+        return new int[arrayLength];
     }
 }
