@@ -1,3 +1,5 @@
+package chapter1.arrays;
+
 public class CharDemo2 {
 
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package chapter1.arrays;
+
 public class CustExample {
 
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package chapter1.arrays;
+
 public class ByteExcample {
 
     public static void main(String[] args) {

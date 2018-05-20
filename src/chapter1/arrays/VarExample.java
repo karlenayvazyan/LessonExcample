@@ -1,3 +1,5 @@
+package chapter1.arrays;
+
 public class VarExample {
 
     int a, b, c;
