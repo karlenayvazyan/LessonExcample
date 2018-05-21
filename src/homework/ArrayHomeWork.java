@@ -3,31 +3,35 @@ package homework;
 public class ArrayHomeWork {
 
     public static void main(String[] args) {
-        int[] evenNumbers = getOddNumbers(10);
-        System.out.println(evenNumbers);
+        int[] array = getEvenNumbers(5);
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+        }
     }
 
     /*
     create int array which will contains even numbers and return that array
+
      */
     public static int[] getEvenNumbers(int arrayLength) {
-        int[] array = new int[arrayLength];
-        for (int i = 0; i < arrayLength * 2; i = i + 2) {
-            array[i] = i;
+        int[] evenNumbers = new int[arrayLength];
+        for (int i = 1; i < arrayLength; i++) {
+            if (i % 2 == 0) {
+                evenNumbers[i]= i;
+            }
         }
-        return array;
+        return evenNumbers;
     }
 
+    public static boolean isEven(int i) {
+        // return true if i is even false otherwise
+        return i % 2 == 0 ? true : false;
+    }
 
     /*
-    create int array which will contains even numbers and return that array
+    create int array which contains odd numbers and return that array
      */
     public static int[] getOddNumbers(int arrayLength) {
-        int[] array = new int[arrayLength];
-        for (int i = 1; i < arrayLength * 2 - 1; i = i + 2) {
-            array[i] = i;
-        }
-        return array;
+        return new int[arrayLength];
     }
 }
-
